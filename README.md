@@ -8,3 +8,24 @@ O controle de versão é uma parte importante da IaC. Os arquivos de configuraç
 
 Principal beneficio:
 Ao automatizar o provisionamento da infraestrutura com a IaC, os desenvolvedores não precisam provisionar e gerenciar manualmente servidores, sistemas operacionais, armazenamento e outros componentes de infraestrutura sempre que criam ou implantam uma aplicação.
+
+Definições:
+DIRETÓRIOS
+GRUPOS
+USUÁRIOS
+
+Criação de um script:
+nano ou vi iac.sh
+
+Procedimento:
+Deve ser aplicado e valido em ambiente de testes
+Antes de aplicar em ambiente de testes deve fazer um backup ou snapshot da máquina ou máquina virtual
+
+Permissões:
+Antes de executar deve permitir a execução do arquivo com o comando abaixo.
+chmod +x iac.sh
+
+Conferindo os resultados:
+cat /etc/passwd
+
+
